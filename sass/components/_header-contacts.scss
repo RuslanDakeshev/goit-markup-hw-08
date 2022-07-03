@@ -1,32 +1,32 @@
-.contact-list__page-header {
+/*.contact-list__page-header {
     display: flex;
     margin-left: auto;
 }
 
 .contact-list .contact-list__item+.contact-list__item {
     margin-left: 50px;
-}
+} */
 
-/*.phone-number {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--accent-color-gray);
+                        /*.phone-number {
+                            display: flex;
+                            align-items: center;
+                            font-size: 14px;
+                            line-height: 1.14;
+                            letter-spacing: 0.02em;
+                            color: var(--accent-color-gray);
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                            transition-property: color;
+                            transition-duration: 250ms;
+                            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-        color: var(--accent-color);
-        fill: rgba(33, 150, 243, 1);
-    }
-}*/
+                            &:hover,
+                            &:focus {
+                                color: var(--accent-color);
+                                fill: rgba(33, 150, 243, 1);
+                            }
+                        }*/
 
-.contact-list__link {
+/*.contact-list__link {
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -46,18 +46,18 @@
     }
 
 
-}
+}*/
 
 
-/*.icon {
-    padding-right: 10px;
-    border: 0;
-    fill: #757575;
-    background-color: var(--accent-color-white);
+                                    /*.icon {
+                                        padding-right: 10px;
+                                        border: 0;
+                                        fill: #757575;
+                                        background-color: var(--accent-color-white);
 
-} */
+                                    } */
 
-.contact-list__icon {
+/*.contact-list__icon {
     margin-right: 10px;
 
     fill: rgba(117, 117, 117, 1);
@@ -78,4 +78,4 @@
         fill: rgba(33, 150, 243, 1)
     }
 
-}
+}*/

@@ -1,4 +1,45 @@
-.page-header__container {
+.menu{
+    display: none;
+}
+
+.contact-list{
+    display: none;
+}
+
+.mobile-menu-open-btn{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    height: 40px;
+}
+
+.page-header{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: tomato;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #000;
+
+}
+
+.logo__web {
+    color: var(--accent-color);
+}
+
+.page-header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*.page-header__container {
     display: flex;
     align-items: center;
 }
@@ -35,10 +76,10 @@
     position: relative;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
-    /*padding-top:    32px;
-    padding-bottom: 32px;*/
-    color: var(--accent-color-black);
+    letter-spacing: 0.02em;*/
+                                    /*padding-top:    32px;
+                                    padding-bottom: 32px;*/
+    /*color: var(--accent-color-black);
 
     transition-property: color;
     transition-duration: 250ms;
@@ -48,7 +89,7 @@
     &:focus {
         color: var(--accent-color);
     }
-}
+}*/
 
 
 
