@@ -419,7 +419,7 @@ body {
   .mobile-menu__social-item:not(:last-child) {
     margin-right: 20px;
   }
-  .mobile-menu__social-item .mobile-menu__social-link1::after {
+  .mobile-menu__social-link1::after {
     content: '';
     position: absolute;
     top: 10px;
@@ -428,7 +428,7 @@ body {
     border: 1px solid rgba(33, 33, 33, 0.2);
     transform: rotate(90deg);
   }
-  .mobile-menu__social-item .mobile-menu__social-link2::after {
+  .mobile-menu__social-link2::after {
     content: '';
     position: absolute;
     top: 10px;
@@ -437,7 +437,7 @@ body {
     border: 1px solid rgba(33, 33, 33, 0.2);
     transform: rotate(90deg);
   }
-  .mobile-menu__social-item .mobile-menu__social-link3::after {
+  .mobile-menu__social-link3::after {
     content: '';
     position: absolute;
     top: 10px;
