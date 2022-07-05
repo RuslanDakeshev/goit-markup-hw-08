@@ -178,16 +178,16 @@
     
     }
 
-    .mobile-menu__social-link4::after {
-        content: '';
-        position: absolute;
-        top: 10px;
-        width: 22px;
-        height: 2px;
-        border: 1px solid rgba(33, 33, 33, 0.2);
-        transform: rotate(90deg);
+    // .mobile-menu__social-link4::after {
+    //     content: '';
+    //     position: absolute;
+    //     top: 10px;
+    //     width: 22px;
+    //     height: 2px;
+    //     border: 1px solid rgba(33, 33, 33, 0.2);
+    //     transform: rotate(90deg);
     
-    }
+    // }
 }}
 
 @media screen and (min-width:768px){

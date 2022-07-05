@@ -1,3 +1,10 @@
+.section__no-padding-top{
+    @media (max-width: 1199px) {
+        display:none;
+    }
+}
+
+
 .section__no-padding-top {
 
     padding-top: 0;
