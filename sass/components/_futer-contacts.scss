@@ -1,22 +1,16 @@
 .adres-font-style {
-
+    margin-top: 20px;
     font-style: normal;
 
 }
 
-.adres {
-    margin-top: 20px;
-}
+
 
 .adres__item {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
 
-    &:last-child {
-        margin-bottom: 0;
-    }
+    
 }
-
-
 
 .adres__nav-link {
     font-weight: 400;
@@ -24,7 +18,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--accent-color-white);
-    margin-bottom: 9px;
+    
 
     transition-property: color;
     transition-duration: 250ms;
@@ -36,8 +30,6 @@
     }
 
 }
-
-
 
 .adres__mail-link {
     font-weight: 400;
@@ -58,8 +50,6 @@
 
 }
 
-
-
 .adres__tel-link {
     font-weight: 400;
     font-size: 14px;
@@ -77,3 +67,84 @@
         color: var(--accent-color)
     }
 }
+
+
+// .adres-font-style {
+
+//     font-style: normal;
+
+// }
+
+// .adres {
+//     margin-top: 20px;
+// }
+
+// .adres__item {
+//     margin-bottom: 9px;
+
+//     &:last-child {
+//         margin-bottom: 0;
+//     }
+// }
+
+
+
+// .adres__nav-link {
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 1.71;
+//     letter-spacing: 0.03em;
+//     color: var(--accent-color-white);
+//     margin-bottom: 9px;
+
+//     transition-property: color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     &:focus {
+//         color: var(--accent-color)
+//     }
+
+// }
+
+
+
+// .adres__mail-link {
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 1.71;
+//     letter-spacing: 0.03em;
+
+//     color: rgba(255, 255, 255, 0.6);
+
+//     transition-property: color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     &:focus {
+//         color: var(--accent-color)
+//     }
+
+// }
+
+
+
+// .adres__tel-link {
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 1.71;
+//     letter-spacing: 0.03em;
+
+//     color: rgba(255, 255, 255, 0.6);
+
+//     transition-property: color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     &:focus {
+//         color: var(--accent-color)
+//     }
+// }

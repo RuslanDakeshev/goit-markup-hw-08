@@ -2,9 +2,9 @@
 
 
 .page-header{
-    padding-top: 16px;
-    padding-bottom: 16px;
-    background-color: tomato;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;   
 }
 
 .logo {
@@ -52,9 +52,7 @@
         display: none;
     }
 
-    .contact-list {
-        display: block;
-    }
+    
     .page-header__container {
         display: flex;
         align-items: center;
@@ -109,8 +107,11 @@
     }
 
     .contact-list__page-header {
-        display: flex;
-        margin-left: auto;
+        display: block
+    }
+
+    .contact-list__item:not(:last-child) {
+        margin-bottom: 10px;
     }
 
     
