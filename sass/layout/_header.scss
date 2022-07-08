@@ -29,7 +29,7 @@
 
 //0px-767px
 
-@media screen and (max-width:767px) {
+@media screen and (min-width:767px) {
     .menu {
         display: none;
     }
@@ -43,13 +43,24 @@
         padding: 0;
         height: 40px;
 
+        &:hover,
+        &:focus {
+            fill: var(--accent-color);}
+
         
     }
+
+    
 }
+
 
 @media screen and (min-width: 768px) {
     .mobile-menu-open-btn {
         display: none;
+    }
+
+    .contact-list__page-header {
+        display: block;
     }
 
     
@@ -106,9 +117,7 @@
         }
     }
 
-    .contact-list__page-header {
-        display: block
-    }
+    
 
     .contact-list__item:not(:last-child) {
         margin-bottom: 10px;
@@ -179,7 +188,16 @@
 
 @media screen and (min-width: 1200px){
     
-    
+    .contact-list__page-header{
+        display: flex;
+        margin-left: auto;
+    }
+
+    .contact-list__item:not(:last-child) {
+        margin-right: 50px;
+        margin-bottom: 0;
+    }
+
     .page-header {
         padding-top: 24px;
         padding-bottom: 25px;
