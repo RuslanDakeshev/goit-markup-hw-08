@@ -73,6 +73,14 @@
     border-radius: 4px;
 }
 
+@media screen and (min-width: 768px) {
+    .button-list {
+        margin-bottom: 30px;
+        justify-content: center;
+
+    }
+}
+
 @media screen and (min-width: 1200px){
     .button-list {
         display: flex;
