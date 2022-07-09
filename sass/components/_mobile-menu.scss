@@ -62,7 +62,7 @@
        display: flex;
        flex-direction: column;
        align-items: flex-start;
-       margin-bottom: 302px;
+       
     }
 
     .mobile-menu__title:not(:last-child){
@@ -70,6 +70,8 @@
 
         
     }
+
+    
 
     .mobile-menu__link{
     font-family: 'Roboto';
@@ -81,14 +83,11 @@
     letter-spacing: 0.02em;
     
     color: var(--accent-color-black);
+}
 
-    &:hover,
-    &:focus {
-        color: var(--accent-color);
-    
-    }
-        
-    }
+.mobile-menu__link-current {
+    color: var(--accent-color);
+}
 
     .mobile-menu__contact{
         display: flex;
@@ -140,6 +139,7 @@
 
     .mobile-menu__social{
         display: flex;
+        flex-wrap: wrap;
         
         position: relative;
     }
@@ -203,5 +203,13 @@
     //     transform: rotate(90deg);
     
     // }
+}
+
+.mobile-menu__wraper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+    
 }
 

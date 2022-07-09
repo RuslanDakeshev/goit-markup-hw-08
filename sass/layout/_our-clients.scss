@@ -19,12 +19,13 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .clients__item {
 
     
-    width: 210px;
+    width: calc((100% - 30px)/2);
     height: 92px;
 
     &:nth-child(odd) {
@@ -35,10 +36,7 @@
     margin-bottom: 30px;
 }
 
-.clients__item {
-    width: calc((100% - 30px)/2);
-    
-}
+
 
 }
 
