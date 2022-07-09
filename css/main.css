@@ -304,7 +304,6 @@ body {
   background: var(--accent-color-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  padding: 40px;
 }
 
 .modal__close-button {
@@ -391,12 +390,6 @@ body {
   fill: var(--accent-color);
 }
 
-.mobile-menu__item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .mobile-menu__title:not(:last-child) {
   margin-bottom: 32px;
 }
@@ -417,12 +410,10 @@ body {
 }
 
 .mobile-menu__contact {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  margin-bottom: 64px;
 }
 
-.mobile-menu__contact-item {
+.mobile-menu__contact-item:not(:last-child) {
   margin-bottom: 32px;
 }
 
@@ -472,27 +463,7 @@ body {
   margin-right: 20px;
 }
 
-.mobile-menu__social-link1::after {
-  content: '';
-  position: absolute;
-  top: 10px;
-  width: 22px;
-  height: 2px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  transform: rotate(90deg);
-}
-
-.mobile-menu__social-link2::after {
-  content: '';
-  position: absolute;
-  top: 10px;
-  width: 22px;
-  height: 2px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  transform: rotate(90deg);
-}
-
-.mobile-menu__social-link3::after {
+.mobile-menu__social-item:not(:last-child)::after {
   content: '';
   position: absolute;
   top: 10px;
@@ -1658,10 +1629,12 @@ body {
 .modal__form {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  padding: 40px;
 }
 
 .modal__label {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .modal__name-span {
@@ -1733,7 +1706,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1785,5 +1758,21 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+  .modal__form {
+    width: 450px;
+  }
+  .modal__contact-form-checkbox-label {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal__form {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
